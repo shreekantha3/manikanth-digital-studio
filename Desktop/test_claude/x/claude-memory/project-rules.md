@@ -28,3 +28,34 @@ Never:
 - Delete code without explanation
 - Introduce breaking changes without warning
 - Ignore edge cases
+
+---
+
+## Multi-Agent Workflow System
+
+### Setup (10 minutes)
+
+1. Create directories: `.claude/agents/` and `.claude/commands/`
+2. Create agent files: `writer.md`, `reviewer.md`, `tester.md`
+3. Create slash command: `ship.md`
+
+### Usage
+
+```
+/ship <task description>
+```
+
+### Agents
+
+| Agent | Role | Tools | When to Use |
+|-------|------|-------|-------------|
+| writer | Implements features | Read, Write, Edit, Glob, Grep, Bash | New code needed |
+| reviewer | Reviews code quality | Read, Grep, Glob, Bash | After writer completes |
+| tester | Writes tests from spec | Read, Write, Edit, Bash | After writer completes |
+
+### Workflow Benefits
+
+- **Throughput**: 3x more PRs per session
+- **Separation of concerns**: Code, review, and tests handled by different agents
+- **Parallel execution**: Writer and tester run simultaneously
+- **Quality**: Dedicated reviewer catches issues writer misses
