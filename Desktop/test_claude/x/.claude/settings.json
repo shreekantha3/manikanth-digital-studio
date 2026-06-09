@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          { "type": "command", "command": "python -m py_compile $file 2>&1 && echo 'Syntax OK'" }
+        ]
+      },
+      {
+        "matcher": "Write(*.py)|Edit(*.py)",
+        "hooks": [
+          { "type": "command", "command": "cd /Users/shree/Desktop/test_claude/x && python -m ruff check $file 2>&1 || echo 'Ruff not installed, skipping'" }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          { "type": "command", "command": "cd /Users/shree/Desktop/test_claude/x && python -m pytest test_*.py -v 2>&1 | tail -20 || echo 'No tests found'" }
+        ]
+      }
+    ]
+  }
+}
