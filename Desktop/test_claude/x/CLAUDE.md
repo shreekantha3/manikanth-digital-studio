@@ -144,6 +144,65 @@ Commit with message referencing brief
 
 ---
 
+## Privacy Lockdown Setup
+
+### Environment Variables
+
+Add to `~/.zshrc` or `~/.bashrc`:
+
+```bash
+# Kill all non-essential traffic in one line
+export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
+
+# Don't save session transcripts to disk
+export CLAUDE_CODE_SKIP_PROMPT_HISTORY=1
+
+# Hide your working directory from startup banner
+export CLAUDE_CODE_HIDE_CWD=1
+```
+
+### Settings Check (Do Once)
+
+1. Go to claude.ai → Settings → Privacy
+2. Turn OFF "Model improvement"
+3. Turn OFF "Conversation history for training"
+4. Enable Incognito mode for sensitive work
+
+### Deny Rules for Sensitive Files
+
+Create `.claude/settings.json`:
+
+```json
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env*)",
+      "Read(**/.ssh/**)",
+      "Read(**/.aws/**)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/secrets/**)",
+      "Write(**/.env*)",
+      "Write(**/.ssh/**)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ]
+  }
+}
+```
+
+### Privacy Checklist
+
+- [ ] Set `CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1`
+- [ ] Set `CLAUDE_CODE_SKIP_PROMPT_HISTORY=1`
+- [ ] Turn off "Model improvement" in claude.ai settings
+- [ ] Add deny rules for .env, .ssh, .aws, secrets
+- [ ] Block curl/wget in deny rules
+- [ ] Use Incognito mode for sensitive projects
+- [ ] Never click Yes on "Can Anthropic look at your transcript?"
+
+---
+
 ## Slash Command Library
 
 | Command | Purpose | When to Use |

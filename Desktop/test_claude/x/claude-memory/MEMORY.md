@@ -8,3 +8,4 @@
 - [Settings Hooks](project-rules.md#settings-hooks) — automated lint and test hooks
 - [Slash Command Library](project-rules.md#slash-command-library) — 8 ready-to-use commands
 - [Fact Checker](project-rules.md#fact-checker-agent) — verify claims before commits
+- [Privacy Lockdown](project-rules.md#privacy-lockdown-setup) — data protection setup

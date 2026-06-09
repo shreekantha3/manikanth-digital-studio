@@ -122,6 +122,53 @@ Before showing any result, do ALL of:
 
 ---
 
+## Privacy Lockdown Setup
+
+### Environment Variables
+
+```bash
+# Kill all non-essential traffic
+export CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC=1
+
+# Don't save session transcripts
+export CLAUDE_CODE_SKIP_PROMPT_HISTORY=1
+
+# Hide working directory
+export CLAUDE_CODE_HIDE_CWD=1
+```
+
+### Settings Check
+
+1. claude.ai → Settings → Privacy
+2. Turn OFF "Model improvement"
+3. Turn OFF "Conversation history for training"
+4. Enable Incognito mode for sensitive work
+
+### Deny Rules
+
+```json
+{
+  "permissions": {
+    "deny": [
+      "Read(**/.env*)",
+      "Read(**/.ssh/**)",
+      "Read(**/.aws/**)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ]
+  }
+}
+```
+
+### Privacy Checklist
+
+- [ ] Set privacy environment variables
+- [ ] Turn off model improvement in settings
+- [ ] Add deny rules for sensitive files
+- [ ] Use Incognito mode for sensitive work
+
+---
+
 ## Slash Command Library
 
 | Command | Purpose | When to Use |
