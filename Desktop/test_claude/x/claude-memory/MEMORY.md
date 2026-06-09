@@ -9,3 +9,4 @@
 - [Slash Command Library](project-rules.md#slash-command-library) — 8 ready-to-use commands
 - [Fact Checker](project-rules.md#fact-checker-agent) — verify claims before commits
 - [Privacy Lockdown](project-rules.md#privacy-lockdown-setup) — data protection setup
+- [Implementation Summary](project-rules.md#implementation-summary) — what was built and how to use it

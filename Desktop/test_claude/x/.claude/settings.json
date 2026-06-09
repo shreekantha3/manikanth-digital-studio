@@ -33,5 +33,19 @@
         ]
       }
     ]
+  },
+  "permissions": {
+    "deny": [
+      "Read(**/.env*)",
+      "Read(**/.ssh/**)",
+      "Read(**/.aws/**)",
+      "Read(**/*.pem)",
+      "Read(**/*.key)",
+      "Read(**/secrets/**)",
+      "Write(**/.env*)",
+      "Write(**/.ssh/**)",
+      "Bash(curl *)",
+      "Bash(wget *)"
+    ]
   }
 }
