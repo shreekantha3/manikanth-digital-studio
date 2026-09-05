@@ -1,1 +1,17 @@
-{"projectId":"manikanth-digital-studio","framework":"vite","regions":["iad1"],"buildCommand":"npm run build","devCommand":"npm run dev","installCommand":"npm install","source":"https://github.com/shreekantha3/manikanth-digital-studio"}
+{
+  "projectId": "manikanth-digital-studio",
+  "framework": "vite",
+  "regions": ["iad1"],
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "source": "https://github.com/shreekantha3/manikanth-digital-studio",
+  "env": {
+    "VITE_BASE": "/"
+  },
+  "build": {
+    "env": {
+      "VITE_BASE": "/"
+    }
+  }
+}
