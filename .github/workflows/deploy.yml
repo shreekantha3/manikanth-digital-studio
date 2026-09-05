@@ -33,6 +33,7 @@ jobs:
       - name: Build
         env:
           VITE_REPO_NAME: ${{ vars.VITE_REPO_NAME || 'manikanth-digital-studio' }}
+          VITE_BASE: /manikanth-digital-studio/
         run: npm run build
 
       - name: Setup Pages
