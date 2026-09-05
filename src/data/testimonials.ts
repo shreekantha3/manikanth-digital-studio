@@ -19,11 +19,11 @@ export interface Testimonial {
 }
 
 export const testimonials: Testimonial[] = [
-  // Verified testimonials should be added here.
-  // Example shape (do NOT use — replace only with real, verified reviews):
+  // Add verified, permissioned customer reviews here.
+  // Example shape:
   // {
   //   id: 't-01',
-  //   name: '',
+  //   name: 'Priya S.',
   //   context: 'Wedding — Sindagi',
   //   quote: '',
   //   year: 2026,

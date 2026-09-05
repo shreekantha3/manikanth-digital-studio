@@ -22,7 +22,7 @@ export const site = {
       'https://www.google.com/maps?q=Manikanth+Digital+Studio+Sindagi+Karnataka&output=embed',
   },
   contact: {
-    // Leave empty strings until the studio owner verifies the actual phone/WhatsApp number.
+    // Verify with the studio owner before going live.
     phoneDisplay: '',
     phoneTel: '',
     whatsappNumber: '', // digits only, e.g. "919999999999"
@@ -47,7 +47,7 @@ export const site = {
     title: 'Manikanth Digital Studio | Wedding & Portrait Photography in Sindagi',
     description:
       'Wedding, pre-wedding, maternity, newborn, portrait and event photography studio in Sindagi, Karnataka. Authentic moments, timeless frames.',
-    siteUrl: 'https://example.github.io/manikanth-digital-studio',
+    siteUrl: 'https://shreekantha3.github.io/manikanth-digital-studio',
     ogImage: '/og-image.jpg',
   },
 } as const

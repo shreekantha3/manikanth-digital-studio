@@ -45,7 +45,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'Rituals, colour, and a quiet morning light.',
     image:
       'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A wedding ceremony with rich colour and detail — placeholder',
+    imageAlt: 'A wedding ceremony with rich colour and detail',
     span: 'tall',
     aspect: '3/4',
     location: 'Sindagi',
@@ -57,7 +57,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A pre-wedding session along an open field.',
     image:
       'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A couple walking together at golden hour — placeholder',
+    imageAlt: 'A couple walking together at golden hour',
     span: 'wide',
     aspect: '4/3',
     location: 'Sindagi',
@@ -69,7 +69,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A studio portrait with natural expression.',
     image:
       'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A studio portrait in soft natural light — placeholder',
+    imageAlt: 'A studio portrait in soft natural light',
     span: 'square',
     aspect: '1/1',
   },
@@ -80,7 +80,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A reception framed in warm window light.',
     image:
       'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A couple sharing a first dance — placeholder',
+    imageAlt: 'A couple sharing a first dance',
     span: 'wide',
     aspect: '3/2',
   },
@@ -91,7 +91,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A maternity session by the window.',
     image:
       'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A maternity portrait in soft window light — placeholder',
+    imageAlt: 'A maternity portrait in soft window light',
     span: 'tall',
     aspect: '3/4',
   },
@@ -102,7 +102,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A newborn sleeping in soft fabric.',
     image:
       'https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A newborn sleeping peacefully — placeholder',
+    imageAlt: 'A newborn sleeping peacefully',
     span: 'square',
     aspect: '1/1',
   },
@@ -113,7 +113,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'Light, laughter, and a long evening.',
     image:
       'https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'Guests at an evening reception — placeholder',
+    imageAlt: 'Guests at an evening reception',
     span: 'tall',
     aspect: '3/4',
   },
@@ -124,7 +124,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A pre-wedding portrait, late afternoon.',
     image:
       'https://images.unsplash.com/photo-1525258946800-98cfd641d0de?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A pre-wedding portrait in a quiet field — placeholder',
+    imageAlt: 'A pre-wedding portrait in a quiet field',
     span: 'wide',
     aspect: '4/3',
   },
@@ -135,7 +135,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A clean editorial portrait.',
     image:
       'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A editorial portrait with neutral background — placeholder',
+    imageAlt: 'An editorial portrait with neutral background',
     span: 'tall',
     aspect: '3/4',
   },
@@ -146,7 +146,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'Traditions captured as they unfold.',
     image:
       'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A wedding ceremony in progress — placeholder',
+    imageAlt: 'A wedding ceremony in progress',
     span: 'square',
     aspect: '1/1',
   },
@@ -157,7 +157,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A maternity portrait outdoors.',
     image:
       'https://images.unsplash.com/photo-1609220136736-443140cffec6?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A maternity portrait outdoors — placeholder',
+    imageAlt: 'A maternity portrait outdoors',
     span: 'wide',
     aspect: '4/3',
   },
@@ -168,7 +168,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A newborn cradled in soft light.',
     image:
       'https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A newborn cradled close — placeholder',
+    imageAlt: 'A newborn cradled close',
     span: 'tall',
     aspect: '3/4',
   },
@@ -179,7 +179,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'Conversations and warm light.',
     image:
       'https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'Guests in conversation at an event — placeholder',
+    imageAlt: 'Guests in conversation at an event',
     span: 'wide',
     aspect: '16/9',
   },
@@ -190,7 +190,7 @@ export const portfolio: PortfolioItem[] = [
     caption: 'A portrait in afternoon window light.',
     image:
       'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?auto=format&fit=crop&w=1600&q=80',
-    imageAlt: 'A portrait in afternoon window light — placeholder',
+    imageAlt: 'A portrait in afternoon window light',
     span: 'square',
     aspect: '1/1',
   },

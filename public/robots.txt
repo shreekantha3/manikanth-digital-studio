@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.github.io/manikanth-digital-studio/sitemap.xml
+Sitemap: https://shreekantha3.github.io/manikanth-digital-studio/sitemap.xml

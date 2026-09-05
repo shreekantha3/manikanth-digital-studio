@@ -26,7 +26,7 @@ export const services: Service[] = [
     image:
       'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'A bride and groom during a quiet ceremony moment — placeholder wedding photograph',
+      'A bride and groom during a quiet ceremony moment',
   },
   {
     id: 'pre-wedding',
@@ -38,7 +38,7 @@ export const services: Service[] = [
     image:
       'https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'A couple walking together during golden hour — placeholder pre-wedding portrait',
+      'A couple walking together during golden hour',
   },
   {
     id: 'maternity',
@@ -50,7 +50,7 @@ export const services: Service[] = [
     image:
       'https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'A expectant parent cradling their bump in soft window light — placeholder maternity portrait',
+      'An expectant parent cradling their bump in soft window light',
   },
   {
     id: 'newborn',
@@ -62,7 +62,7 @@ export const services: Service[] = [
     image:
       'https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'A newborn sleeping in soft fabric — placeholder newborn photograph',
+      'A newborn sleeping in soft fabric',
   },
   {
     id: 'portrait',
@@ -74,7 +74,7 @@ export const services: Service[] = [
     image:
       'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'A thoughtful portrait in natural window light — placeholder portrait',
+      'A thoughtful portrait in natural window light',
   },
   {
     id: 'events',
@@ -86,7 +86,7 @@ export const services: Service[] = [
     image:
       'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'Guests celebrating at an evening event — placeholder event photograph',
+      'Guests celebrating at an evening event',
   },
   {
     id: 'commercial',
@@ -98,7 +98,7 @@ export const services: Service[] = [
     image:
       'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'A styled product and brand still life — placeholder commercial photograph',
+      'A styled product and brand still life',
   },
   {
     id: 'studio',
@@ -110,6 +110,6 @@ export const services: Service[] = [
     image:
       'https://images.unsplash.com/photo-1554941829-202a0b2403b8?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'Studio lights and a soft backdrop setup — placeholder studio photograph',
+      'Studio lights and a soft backdrop setup',
   },
 ]
