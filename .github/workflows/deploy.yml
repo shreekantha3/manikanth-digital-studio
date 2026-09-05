@@ -3,17 +3,13 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-  workflow_dispatch:
+  workflow_dispatch
 
-# Allow the workflow to push to the gh-pages branch and set the
-# deployment status on the repository.
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Prevent concurrent deploys and avoid stale deployments pointing at
-# deleted pages.
 concurrency:
   group: pages
   cancel-in-progress: false
@@ -35,17 +31,9 @@ jobs:
         run: npm ci
 
       - name: Build
-        # VITE_REPO_NAME drives the production base path in vite.config.ts.
-        # Override via Repository → Settings → Secrets and variables → Actions
-        # if the repository is not named "manikanth-digital-studio".
         env:
           VITE_REPO_NAME: ${{ vars.VITE_REPO_NAME || 'manikanth-digital-studio' }}
         run: npm run build
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: enabled
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -62,3 +50,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          enablement: enabled
