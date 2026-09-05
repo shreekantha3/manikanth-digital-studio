@@ -35,6 +35,11 @@ jobs:
           VITE_REPO_NAME: ${{ vars.VITE_REPO_NAME || 'manikanth-digital-studio' }}
         run: npm run build
 
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: enabled
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -50,5 +55,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          enablement: enabled
