@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shreekantha3.github.io/manikanth-digital-studio/sitemap.xml
