@@ -14,13 +14,17 @@ export default defineConfig({
     },
   },
   // For GitHub Pages at https://<user>.github.io/<repo>/
+  // and Vercel at https://<user>.vercel.app/<repo>/
   base: process.env.VITE_BASE ?? `/${REPO_NAME}/`,
   build: {
     outDir: 'dist',
     assetsInlineLimit: 0,
     sourcemap: false,
     rollupOptions: {
+      input: 'index.html',
       output: {
+        entryFileNames: 'index-[hash].js',
+        assetFileNames: 'index-[hash].[ext]',
         manualChunks: {
           vendor: ['react', 'react-dom'],
           motion: ['framer-motion'],
