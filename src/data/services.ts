@@ -24,9 +24,9 @@ export const services: Service[] = [
       'From the first quiet ritual of the morning to the last dance of the evening, every ceremony, glance and tradition is documented with patience and care.',
     caption: 'A wedding is a story told in light.',
     image:
-      'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1511497584787-95947ed9781e?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
-      'A bride and groom during a quiet ceremony moment',
+      'A couple at the wedding altar exchanging vows',
   },
   {
     id: 'pre-wedding',
@@ -36,7 +36,7 @@ export const services: Service[] = [
       'Portrait sessions built around your story — your favourite places, your inside jokes, the small gestures that belong only to the two of you.',
     caption: 'Before the day, a moment just for you.',
     image:
-      'https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1522064344861-13b639e3f2d9?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
       'A couple walking together during golden hour',
   },
@@ -48,7 +48,7 @@ export const services: Service[] = [
       'Quiet, tender portraits celebrating one of life’s most beautiful journeys — composed with softness and an editorial eye.',
     caption: 'The beginning, held in a frame.',
     image:
-      'https://images.unsplash.com/photo-1544126592-807ade215a0b?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1556355671-5f9b7f8e9f5c?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
       'An expectant parent cradling their bump in soft window light',
   },
@@ -60,7 +60,7 @@ export const services: Service[] = [
       'Gentle, unhurried sessions that capture the smallest details — the curve of a hand, the soft breath of sleep, the wonder of a first week.',
     caption: 'Smallest hands. Longest memory.',
     image:
-      'https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1516439247272-1c6d3dc5b0e0?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
       'A newborn sleeping in soft fabric',
   },
@@ -72,7 +72,7 @@ export const services: Service[] = [
       'Portraits shaped around you — natural expression, considered composition and a relaxed pace that lets personality lead.',
     caption: 'A portrait is a person, at their most themselves.',
     image:
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
       'A thoughtful portrait in natural window light',
   },
@@ -84,7 +84,7 @@ export const services: Service[] = [
       'From intimate gatherings to large celebrations, we move with the room — quietly capturing the conversations, reactions and unscripted moments.',
     caption: 'The room, the laughter, the day.',
     image:
-      'https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1549698205-a84b3b9d5238?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
       'Guests celebrating at an evening event',
   },
@@ -96,7 +96,7 @@ export const services: Service[] = [
       'Photography for businesses, products and promotional needs — clean, considered imagery designed to communicate clearly.',
     caption: 'Imagery that speaks for the brand.',
     image:
-      'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1600&q=80',
     imageAlt:
       'A styled product and brand still life',
   },

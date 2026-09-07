@@ -194,4 +194,83 @@ export const portfolio: PortfolioItem[] = [
     span: 'square',
     aspect: '1/1',
   },
+  {
+    id: 'w-04',
+    category: 'weddings',
+    title: 'The Altar',
+    caption: 'A quiet moment before the vows.',
+    image:
+      'https://images.unsplash.com/photo-1511497584787-95947ed9781e?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'A couple at the wedding altar',
+    span: 'tall',
+    aspect: '3/4',
+    location: 'Sindagi',
+  },
+  {
+    id: 'w-05',
+    category: 'weddings',
+    title: 'The First Kiss',
+    caption: 'Sealed with a smile and a kiss.',
+    image:
+      'https://images.unsplash.com/photo-1530666919214-389e6747437b?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'A couple sharing their first kiss as newlyweds',
+    span: 'square',
+    aspect: '1/1',
+  },
+  {
+    id: 'pw-03',
+    category: 'pre-wedding',
+    title: 'Golden Embrace',
+    caption: 'Sunset warmth and stolen glances.',
+    image:
+      'https://images.unsplash.com/photo-1489944474971-74259905e27c?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'A couple embracing during golden hour',
+    span: 'wide',
+    aspect: '4/3',
+    location: 'Sindagi',
+  },
+  {
+    id: 'p-04',
+    category: 'portraits',
+    title: 'Natural Light',
+    caption: 'Portrait in soft, diffused daylight.',
+    image:
+      'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'A man portrait in natural daylight',
+    span: 'tall',
+    aspect: '3/4',
+  },
+  {
+    id: 'm-03',
+    category: 'maternity',
+    title: 'Golden Glow',
+    caption: 'Motherhood framed in warm light.',
+    image:
+      'https://images.unsplash.com/photo-1556355671-5f9b7f8e9f5c?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'A maternity portrait with warm golden tones',
+    span: 'tall',
+    aspect: '3/4',
+  },
+  {
+    id: 'n-03',
+    category: 'newborn',
+    title: 'Tiny Hands',
+    caption: 'Small fingers, big wonder.',
+    image:
+      'https://images.unsplash.com/photo-1516439247272-1c6d3dc5b0e0?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'A newborn with tiny hands',
+    span: 'square',
+    aspect: '1/1',
+  },
+  {
+    id: 'e-03',
+    category: 'events',
+    title: 'Celebration Night',
+    caption: 'Joy, music, and warm confetti.',
+    image:
+      'https://images.unsplash.com/photo-1549698205-a84b3b9d5238?auto=format&fit=crop&w=1600&q=80',
+    imageAlt: 'Guests celebrating at an event with confetti',
+    span: 'wide',
+    aspect: '16/9',
+  },
 ]

@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import { ArrowUpRight } from 'lucide-react'
 
 const FEATURED_IMAGE =
-  'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2400&q=80'
+  'https://images.unsplash.com/photo-1530666919214-389e6747437b?auto=format&fit=crop&w=2400&q=80'
 
 export function FeaturedStory() {
   const ref = useRef<HTMLElement>(null)
