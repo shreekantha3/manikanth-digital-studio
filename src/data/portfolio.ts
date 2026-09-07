@@ -200,7 +200,7 @@ export const portfolio: PortfolioItem[] = [
     title: 'The Altar',
     caption: 'A quiet moment before the vows.',
     image:
-      'https://images.unsplash.com/photo-1511497584787-95947ed9781e?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1600&q=80',
     imageAlt: 'A couple at the wedding altar',
     span: 'tall',
     aspect: '3/4',
@@ -212,7 +212,7 @@ export const portfolio: PortfolioItem[] = [
     title: 'The First Kiss',
     caption: 'Sealed with a smile and a kiss.',
     image:
-      'https://images.unsplash.com/photo-1530666919214-389e6747437b?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1600&q=80',
     imageAlt: 'A couple sharing their first kiss as newlyweds',
     span: 'square',
     aspect: '1/1',
@@ -223,7 +223,7 @@ export const portfolio: PortfolioItem[] = [
     title: 'Golden Embrace',
     caption: 'Sunset warmth and stolen glances.',
     image:
-      'https://images.unsplash.com/photo-1489944474971-74259905e27c?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1529636798458-92182e662485?auto=format&fit=crop&w=1600&q=80',
     imageAlt: 'A couple embracing during golden hour',
     span: 'wide',
     aspect: '4/3',
@@ -246,7 +246,7 @@ export const portfolio: PortfolioItem[] = [
     title: 'Golden Glow',
     caption: 'Motherhood framed in warm light.',
     image:
-      'https://images.unsplash.com/photo-1556355671-5f9b7f8e9f5c?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1600&q=80',
     imageAlt: 'A maternity portrait with warm golden tones',
     span: 'tall',
     aspect: '3/4',
@@ -257,7 +257,7 @@ export const portfolio: PortfolioItem[] = [
     title: 'Tiny Hands',
     caption: 'Small fingers, big wonder.',
     image:
-      'https://images.unsplash.com/photo-1516439247272-1c6d3dc5b0e0?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?auto=format&fit=crop&w=1600&q=80',
     imageAlt: 'A newborn with tiny hands',
     span: 'square',
     aspect: '1/1',
@@ -268,7 +268,7 @@ export const portfolio: PortfolioItem[] = [
     title: 'Celebration Night',
     caption: 'Joy, music, and warm confetti.',
     image:
-      'https://images.unsplash.com/photo-1549698205-a84b3b9d5238?auto=format&fit=crop&w=1600&q=80',
+      'https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=1600&q=80',
     imageAlt: 'Guests celebrating at an event with confetti',
     span: 'wide',
     aspect: '16/9',

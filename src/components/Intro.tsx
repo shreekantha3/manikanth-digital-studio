@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 const INTRO_IMAGE =
-  'https://images.unsplash.com/photo-1530666919214-389e6747437b?auto=format&fit=crop&w=1600&q=80'
+  'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1600&q=80'
 
 export function Intro() {
   return (

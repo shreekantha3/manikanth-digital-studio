@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react'
 import { site, whatsappLink } from '../data/site'
 
 const BG =
-  'https://images.unsplash.com/photo-1511497584787-95947ed9781e?auto=format&fit=crop&w=2400&q=80'
+  'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=2400&q=80'
 
 export function FinalCTA() {
   const cta = whatsappLink('Hi Manikanth Digital Studio, I would like to book a shoot.')

@@ -4,7 +4,7 @@ import { ArrowDown, MapPin, ArrowUpRight } from 'lucide-react'
 import { site, whatsappLink } from '../data/site'
 
 const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1511497584787-95947ed9781e?auto=format&fit=crop&w=2400&q=80'
+  'https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=2400&q=80'
 
 export function Hero() {
   const ref = useRef<HTMLElement>(null)
