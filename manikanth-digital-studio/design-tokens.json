@@ -1,0 +1,55 @@
+{
+  "name": "manikanth-digital-studio-design-tokens",
+  "version": "2.0.0",
+  "description": "Enterprise design token library — Refero-inspired design system for Manikanth Digital Studio.",
+  "metadata": {
+    "source": "Refero Styles (styles.refero.design)",
+    "patterns": ["Apple", "Linear", "Mercury", "Duolingo"],
+    "base_grid": "4px",
+    "density": "compact"
+  },
+  "colors": {
+    "ivory": { "value": "#FAF8F5", "named": "--color-ivory", "usage": "background, surfaces" },
+    "charcoal": { "value": "#2D2B26", "named": "--color-charcoal", "usage": "primary text, headings" },
+    "warm_gray": { "value": "#8A8579", "named": "--color-warm-gray", "usage": "secondary text, captions" },
+    "champagne": { "value": "#D4AF37", "named": "--color-champagne", "usage": "accent, CTAs, highlights" },
+    "bronze": { "value": "#B8860B", "named": "--color-bronze", "usage": "accent hover, borders" },
+    "deep_black": { "value": "#0D0C0A", "named": "--color-deep-black", "usage": "dark mode surfaces, footer" },
+    "soft_white": { "value": "#F5F5F5", "named": "--color-soft-white", "usage": "cards, input backgrounds" },
+    "void": { "value": "#1A1815", "named": "--color-void", "usage": "deep backgrounds" }
+  },
+  "typography": {
+    "font_display": { "family": "Playfair Display", "weights": ["700", "900"], "line_height": "1.2" },
+    "font_body": { "family": "Poppins", "weights": ["400", "600"], "line_height": "1.6" },
+    "font_base": { "size": "4px", "scale_ratio": "1.25" }
+  },
+  "spacing": {
+    "base_unit": "4px",
+    "scale": ["4", "8", "12", "16", "20", "24", "32", "48", "64", "80", "96", "128"]
+  },
+  "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px",
+    "xl": "24px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 2px rgba(45, 43, 38, 0.05)",
+    "md": "0 4px 12px rgba(45, 43, 38, 0.08)",
+    "lg": "0 12px 32px rgba(45, 43, 38, 0.12)"
+  },
+  "motion": {
+    "duration_fast": "0.15s",
+    "duration_normal": "0.3s",
+    "duration_slow": "0.6s",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "reduced_motion_support": true
+  },
+  "exports": {
+    "tailwind_v4": true,
+    "css_variables": true,
+    "design_md": true,
+    "token_json": true
+  }
+}
