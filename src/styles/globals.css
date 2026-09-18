@@ -1,0 +1,203 @@
+@import 'tailwindcss';
+
+/* ============================================
+   MANIKANTH DIGITAL STUDIO — DESIGN SYSTEM v2
+   Enterprise-grade design tokens (Refero-inspired)
+   Base grid: 4px | Density: compact
+   References: Apple, Linear, Mercury, Duolingo
+   ============================================ */
+
+@theme {
+  --font-display: 'Playfair Display', serif;
+  --font-body: 'Poppins', sans-serif;
+
+  /* Color tokens mapped to CSS variables */
+  --color-ivory: #FAF8F5;
+  --color-charcoal: #2D2B26;
+  --color-warm-gray: #8A8579;
+  --color-champagne: #D4AF37;
+  --color-bronze: #B8860B;
+  --color-deep-black: #0D0C0A;
+  --color-soft-white: #F5F5F5;
+  --color-void: #1A1815;
+
+  /* Spacing (4px base) */
+  --spacing-base: 0.25rem; /* 4px */
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(45, 43, 38, 0.05);
+  --shadow-md: 0 4px 12px rgba(45, 43, 38, 0.08);
+  --shadow-lg: 0 12px 32px rgba(45, 43, 38, 0.12);
+}
+
+/* Custom font imports */
+@import url('https://api.fontsource.center/v2/fonts/poppins/files/poppins-latin-400-normal.css');
+@import url('https://api.fontsource.center/v2/fonts/playfair-display/files/playfair-display-latin-700-normal.css');
+@import url('https://api.fontsource.center/v2/fonts/playfair-display/files/playfair-display-latin-900-normal.css');
+
+/* ============================================
+   GLOBAL BASE STYLES
+   ============================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FAF8F5; /* --color-ivory */
+  color: #2D2B26;           /* --color-charcoal */
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 900;
+}
+
+h2 {
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 1.75rem);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Design token: text-balance */
+.text-balance {
+  text-wrap: balance;
+}
+
+/* ============================================
+   TRANSITION & MOTION
+   ============================================ */
+
+.transition-smooth {
+  transition: all 0.3s ease-in-out;
+}
+
+/* ============================================
+   SCROLLBAR (Brand-aligned)
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B8860B;
+}
+
+/* ============================================
+   FOCUS (Enterprise accessibility)
+   ============================================ */
+
+:focus {
+  outline: 2px solid #D4AF37;
+  outline-offset: 2px;
+}
+
+/* ============================================
+   REDUCED MOTION (WCAG AA)
+   ============================================ */
+/* ============================================
+   DARK MODE (Manual + System-aware)
+   ============================================ */
+
+.dark {
+  --color-ivory: #0D0C0A;
+  --color-charcoal: #F5F5F5;
+  --color-warm-gray: #A8A390;
+  --color-champagne: #E8C060;
+  --color-bronze: #D4941A;
+  --color-deep-black: #FAF8F5;
+  --color-soft-white: #2D2B26;
+  --color-void: #1A1815;
+}
+
+.dark body {
+  background-color: #0D0C0A;
+  color: #F5F5F5;
+}
+
+.dark .bg-ivory {
+  background-color: #0D0C0A;
+  color: #F5F5F5;
+}
+
+.dark .text-charcoal {
+  color: #F5F5F5;
+}
+
+.dark .text-warm-gray {
+  color: #A8A390;
+}
+
+.dark .bg-soft-white {
+  background-color: #2D2B26;
+}
+
+.dark .bg-deep-black {
+  background-color: #FAF8F5;
+}
+
+.dark .bg-deep-black h2,
+.dark .bg-deep-black p {
+  color: #2D2B26;
+}
+
+.dark .bg-champagne h2,
+.dark .bg-champagne p,
+.dark .bg-champagne .text-deep-black {
+  color: #0D0C0A;
+}
+
+/* System preference */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-ivory: #0D0C0A;
+    --color-charcoal: #F5F5F5;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
